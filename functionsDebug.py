@@ -33,17 +33,23 @@ END EXAMPLE
 #    return productOfThreeNumbers
 # Correct:
 def multiply_three_numbers(num1, num2, num3):
-    productOfThreeNumbers = 
+    productOfThreeNumbers = num1*num2*num3
+    return productOfThreeNumbers
 #2) 
 # This function has the wrong naming conventions:
 # def Multiply by Two(num1):
 #    multiplied = num1 * 2
 #    return multiplied
 # Correct:
-
+def multiply_numbers(num):
+    multiplied = num * 2
+    return multiplied
 #3) 
 # This function uses one more line than necessary, make it do the same function
 # but in one line
 # def divide_by_ten(num):
 #    divided = num / 10
 #    return divided
+def divided_by_ten(num):
+    divided = num/10
+    return divided
